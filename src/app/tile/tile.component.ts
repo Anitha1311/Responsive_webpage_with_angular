@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
+
 @Component({
   selector: 'app-tile',
   templateUrl: './tile.component.html',
@@ -14,7 +15,7 @@ export class TileComponent implements OnInit {
 }
 export interface ITile {
   name: string;
-  //description: string;
+  description: string;
   imgURL: string;
 }
 
